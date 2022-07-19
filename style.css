@@ -56,3 +56,18 @@ article {
 .working {
     display: flex;
 }
+
+.footer {
+    height: 400px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.ending {
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline;
+    padding-left: 20px;
+}
