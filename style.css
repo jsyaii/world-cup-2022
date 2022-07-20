@@ -39,23 +39,41 @@ middle */
 
 .up-down {
     display: block;
-    flex-wrap: wrap;
-    width: 150px;
-    height: 50px;
-    border-radius: 25px;
-    border: 15px solid black;
+    background: black;
+    margin: 20px 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    background-color: red;
+    text-decoration: none;
+}
+
+.link {
+    background-color: black;
+    width: 270px;
+    height: 230px;
+    border-radius: 10px;
+    padding-top: 20px;
 }
 
 article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-
 }
+
+.img {
+    width: 75%;
+}
+
+
 
 .working {
     display: flex;
+
 }
+
+
 
 .footer {
     height: 400px;
