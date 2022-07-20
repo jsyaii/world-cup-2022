@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 
+
 }
 
 main {
@@ -28,10 +29,20 @@ main {
     background-color: red;
 }
 
+#last-one {
+    font-size: 17px;
+    color: black;
+    background-color: white;
+}
+
 .img {
     padding-top: 70px;
     padding-left: 50px;
     width: 100%;
+}
+
+.fa-solid {
+    padding-left: 15px;
 }
 
 /* article
@@ -70,6 +81,7 @@ article {
 
 .working {
     display: flex;
+    width: 75%;
 
 }
 
@@ -81,6 +93,11 @@ article {
     background-color: black;
     text-align: center;
     padding-top: 200px;
+}
+
+.harry {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .ending {
